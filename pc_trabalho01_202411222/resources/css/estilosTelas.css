@@ -1,0 +1,122 @@
+.button {
+  -fx-font-family: "Lucida Console";
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 14px;
+  -fx-border-color: #ffffff;
+  -fx-border-width: 1px; 
+  -fx-pref-width: 85px;
+  -fx-cursor: hand; 
+  -fx-border-radius: 20;
+  -fx-background-radius: 15 ;
+  -fx-background-color: #222;
+  -fx-text-fill: white;
+  -fx-effect: dropshadow(gaussian, transparent, 10, 1.5, 0, 0);
+  -fx-padding: 3.5;
+}
+
+.estiloLabel{
+  -fx-font-family: "Lucida Console";
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 18px;
+  -fx-pref-width: 365px;
+}
+
+
+#botao1:hover{
+  -fx-text-fill: #29eb1f;
+  -fx-border-color: #29eb1f;
+}
+
+#botao2:hover{
+  -fx-text-fill: #eb1e1e;
+  -fx-border-color: #eb1e1e;
+}
+
+#botaoVoltar:hover{
+  -fx-text-fill: #eba51a;
+  -fx-border-color: #eba51a
+}
+
+#botaoVoltar2:hover{
+  -fx-text-fill: #eba51a;
+  -fx-border-color: #eba51a;
+}
+
+#botaoAvancar:hover{
+  -fx-text-fill: #15f009;
+  -fx-border-color: #15f009;
+}
+
+#botaoIniciarTela3:hover{
+  -fx-text-fill: #15f009;
+  -fx-border-color: #15f009;
+}
+
+#botaoResetarTela3:hover{
+  -fx-text-fill:#00b4ab;
+  -fx-border-color: #00b4ab;
+}
+
+#botaoFecharTela3:hover{
+  -fx-text-fill: #eb1e1e; 
+  -fx-border-color: #eb1e1e;
+}
+
+#textoDePosicao{
+  -fx-text-fill: #0cf81b;
+}
+
+#choiceBox{
+  -fx-background-color: #000;
+  -fx-background-radius: 15;
+  -fx-font-family: "Lucida Console";
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 10px;
+  -fx-border-color: #ffffff;
+  -fx-border-radius: 15; 
+  -fx-border-width: 2px;
+  -fx-cursor: hand; 
+}
+
+#choiceBox .label{
+  -fx-text-fill: #ffffff;
+}
+
+#choiceBox .arrow{
+  -fx-background-color: #ffffff;
+}
+
+.context-menu{
+  -fx-background-color: #010101;
+}
+
+.slider .axis{
+  -fx-tick-label-fill: #ffffff;
+  -fx-font-size: 10px; 
+}
+
+#sliderNaveVerde .track{
+  -fx-background-color: #9fccb8;
+}
+
+#sliderNaveVerde .thumb{
+  -fx-background-color: #5fa370;
+  -fx-cursor: hand;
+}
+
+#sliderNaveVerde .thumb:hover{
+  -fx-background-color: #366f4e
+}
+
+#sliderNaveAzul .track{
+  -fx-background-color: #81accf;
+}
+
+#sliderNaveAzul .thumb{
+  -fx-background-color: #5e8cc8;
+  -fx-cursor: hand;
+}
+
+#sliderNaveAzul .thumb:hover{
+  -fx-background-color: #22629f;
+}

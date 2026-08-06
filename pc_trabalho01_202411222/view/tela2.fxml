@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0_431" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerTela2">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/background-tela2.png" />
+         </image></ImageView>
+      <ImageView fitHeight="238.0" fitWidth="184.0" layoutX="392.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icon-astronauta.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label1" layoutX="88.0" layoutY="69.0" prefHeight="25.0" prefWidth="84.0" styleClass="estiloLabel" text="Olá viajante." />
+      <Label fx:id="label2" layoutX="88.0" layoutY="115.0" prefHeight="17.0" prefWidth="232.0" styleClass="estiloLabel" text="Escolha a posição das naves." />
+      <Button fx:id="botaoVoltar" layoutX="546.0" layoutY="342.0" mnemonicParsing="false" onAction="#voltarParaTela1" text="Voltar" />
+      <Button fx:id="botaoAvancar" layoutX="269.0" layoutY="279.0" mnemonicParsing="false" onAction="#mudarParaTela3" text="Avançar" />
+      <ChoiceBox fx:id="choiceBox" layoutX="143.0" layoutY="219.0" prefHeight="25.0" prefWidth="341.0" />
+   </children>
+</AnchorPane>
