@@ -1,0 +1,25 @@
+.button{
+  -fx-background-color: #141681; 
+  -fx-border-color: #ffffff; 
+  -fx-border-radius: 20;
+  -fx-pref-width: 85px;
+  -fx-pref-height: 25px;
+  -fx-background-radius: 15px;
+  -fx-text-fill: #ffffff;
+  -fx-padding: 4.0;  
+  -fx-font-family: "Dogica Pixel"; 
+  -fx-cursor: hand;
+}
+
+#botao1:hover{
+  -fx-text-fill: #29eb1f;
+  -fx-border-color: #29eb1f;
+  -fx-background-color:#222;
+}
+
+#botao2:hover{
+  -fx-text-fill: #eb1e1e;
+  -fx-border-color: #eb1e1e;
+  -fx-background-color:#222;
+}
+

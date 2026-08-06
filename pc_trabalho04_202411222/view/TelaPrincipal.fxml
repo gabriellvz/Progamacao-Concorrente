@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControleTelaPrincipal">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="607.0" layoutX="-6.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/background-tela-principal.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista01_pensando" fitHeight="114.0" fitWidth="133.0" layoutX="229.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/comentarista01-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista01_comendo" fitHeight="114.0" fitWidth="133.0" layoutX="227.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/comentarista01-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista02_pensando" fitHeight="114.0" fitWidth="134.0" layoutX="321.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/comentarista02-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista02_comendo" fitHeight="114.0" fitWidth="134.0" layoutX="321.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/image/comentarista02-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista05_pensando" fitHeight="114.0" fitWidth="133.0" layoutX="130.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/comentarista05-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista05_comendo" fitHeight="114.0" fitWidth="133.0" layoutX="130.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/image/comentarista05-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="343.0" fitWidth="507.0" layoutX="42.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato01" fitHeight="39.0" fitWidth="72.0" layoutX="264.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-prato-vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato02" fitHeight="39.0" fitWidth="72.0" layoutX="315.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-prato-vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato03" fitHeight="39.0" fitWidth="72.0" layoutX="301.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-prato-vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato04" fitHeight="39.0" fitWidth="72.0" layoutX="224.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-prato-vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato05" fitHeight="39.0" fitWidth="72.0" layoutX="209.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-prato-vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo01" fitHeight="61.0" fitWidth="100.0" layoutX="203.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../assets/image/imagem-garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo02" fitHeight="61.0" fitWidth="100.0" layoutX="280.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../assets/image/imagem-garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo03" fitHeight="61.0" fitWidth="100.0" layoutX="302.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" rotate="-20.0">
+         <image>
+            <Image url="@../assets/image/imagem-garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo04" fitHeight="61.0" fitWidth="100.0" layoutX="243.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true" rotate="42.0">
+         <image>
+            <Image url="@../assets/image/imagem-garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo05" fitHeight="61.0" fitWidth="100.0" layoutX="174.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" rotate="120.0">
+         <image>
+            <Image url="@../assets/image/imagem-garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="119.0" layoutX="237.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-macarrao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoVoltar" fitHeight="63.0" fitWidth="60.0" layoutY="1.0" onMouseClicked="#voltarTela" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-botao-voltar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoFechar" fitHeight="63.0" fitWidth="60.0" layoutX="540.0" layoutY="1.0" onMouseClicked="#fecharTela" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-botao-sair.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista03_pensando" fitHeight="114.0" fitWidth="133.0" layoutX="294.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/comentarista03-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista03_comendo" fitHeight="114.0" fitWidth="133.0" layoutX="294.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/image/comentarista03-comendo.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider03Pensando" layoutX="452.0" layoutY="315.0" prefHeight="14.0" prefWidth="97.0" styleClass="slidersComentarista3, bordaThumbSliders" />
+      <Slider fx:id="slider03Comendo" layoutX="452.0" layoutY="360.0" prefHeight="14.0" prefWidth="97.0" styleClass="slidersComentarista3, bordaThumbSliders" />
+      <ImageView fx:id="comentarista04_pensando" fitHeight="114.0" fitWidth="133.0" layoutX="158.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/comentarista04-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comentarista04_comendo" fitHeight="114.0" fitWidth="133.0" layoutX="158.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/image/comentarista04-comendo.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider04Pensando" layoutX="42.0" layoutY="315.0" prefHeight="14.0" prefWidth="100.0" styleClass="slidersComentarista4, bordaThumbSliders" />
+      <Slider fx:id="slider04Comendo" layoutX="42.0" layoutY="360.0" prefHeight="14.0" prefWidth="100.0" styleClass="slidersComentarista4, bordaThumbSliders" />
+      <Slider fx:id="slider01Pensando" layoutX="245.0" layoutY="14.0" prefHeight="14.0" prefWidth="97.0" styleClass="slidersComentarista1, bordaThumbSliders" />
+      <Slider fx:id="slider01Comendo" layoutX="245.0" layoutY="50.0" prefHeight="14.0" prefWidth="97.0" styleClass="slidersComentarista1, bordaThumbSliders" />
+      <Slider fx:id="slider02Pensando" layoutX="452.0" layoutY="155.0" prefHeight="14.0" prefWidth="97.0" styleClass="slidersComentarista2, bordaThumbSliders" />
+      <Slider fx:id="slider02Comendo" layoutX="452.0" layoutY="201.0" prefHeight="14.0" prefWidth="97.0" styleClass="slidersComentarista2, bordaThumbSliders" />
+      <Slider fx:id="slider05Pensando" layoutX="42.0" layoutY="156.0" prefHeight="14.0" prefWidth="100.0" styleClass="slidersComentarista5, bordaThumbSliders" />
+      <Slider fx:id="slider05Comendo" layoutX="42.0" layoutY="201.0" prefHeight="14.0" prefWidth="100.0" styleClass="slidersComentarista5, bordaThumbSliders" />
+      <ImageView fitHeight="55.0" fitWidth="44.0" layoutX="551.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista3-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="45.0" layoutX="547.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista3-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="45.0" layoutX="547.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista2-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="44.0" layoutX="548.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista2-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="44.0" layoutX="2.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista4-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="45.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista4-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="44.0" layoutX="2.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista5-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="45.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista5-comendo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="55.0" layoutX="334.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista1-pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="72.0" layoutX="327.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/icon-comentarista1-comendo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botaoPausar05" layoutX="55.0" layoutY="123.0" mnemonicParsing="false" onAction="#pausarComentarista05" text="PAUSAR" />
+      <Button fx:id="botaoPausar04" layoutX="55.0" layoutY="285.0" mnemonicParsing="false" onAction="#pausarComentarista04" text="PAUSAR" />
+      <Button fx:id="botaoPausar02" layoutX="465.0" layoutY="123.0" mnemonicParsing="false" onAction="#pausarComentarista02" text="PAUSAR" />
+      <Button fx:id="botaoPausar03" layoutX="465.0" layoutY="285.0" mnemonicParsing="false" onAction="#pausarComentarista03" text="PAUSAR" />
+      <Button fx:id="botaoPausar01" layoutX="150.0" layoutY="81.0" mnemonicParsing="false" onAction="#pausarComentarista01" text="PAUSAR" />
+      <Button fx:id="botaoReiniciar" layoutX="244.0" layoutY="355.0" mnemonicParsing="false" onAction="#reiniciarSimulacao" text="REINICIAR" />
+      <Label fx:id="label01" layoutX="144.0" layoutY="53.0" prefHeight="17.0" prefWidth="105.0" text="Label" />
+      <Label fx:id="label04" layoutX="50.0" layoutY="258.0" prefHeight="17.0" prefWidth="105.0" text="Label" />
+      <Label fx:id="label05" layoutX="50.0" layoutY="98.0" prefHeight="17.0" prefWidth="105.0" text="Label" />
+      <Label fx:id="label02" layoutX="460.0" layoutY="98.0" prefHeight="17.0" prefWidth="105.0" text="Label" />
+      <Label fx:id="label03" layoutX="460.0" layoutY="258.0" prefHeight="17.0" prefWidth="105.0" text="Label" />
+   </children>
+</AnchorPane>

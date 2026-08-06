@@ -1,0 +1,59 @@
+.button{
+  -fx-background-color: #204482; 
+  -fx-border-color: #ffffff; 
+  -fx-border-radius: 20;
+  -fx-pref-width: 85px;
+  -fx-pref-height: 25px;
+  -fx-background-radius: 15px;
+  -fx-text-fill: #ffffff;
+  -fx-padding: 4.0;  
+  -fx-font-family: "Dogica Pixel"; 
+  -fx-cursor: hand;
+}
+
+#botao3:hover{
+  -fx-text-fill: #eba51a;
+  -fx-border-color: #eba51a;
+  -fx-background-color:#222; 
+}
+
+#botao4:hover{
+  -fx-text-fill: #eb1e1e;
+  -fx-border-color: #eb1e1e;
+  -fx-background-color:#222222;
+}
+
+
+.slider .axis{
+  -fx-tick-label-fill: #ffffff;
+}
+
+#sliderProdutor .track{
+  -fx-background-color: #23323f;
+}
+
+#sliderProdutor .thumb{
+  -fx-cursor: hand; 
+  -fx-background-color: #316085;
+}
+
+#sliderConsumidor .track{
+  -fx-background-color: #f4b03c;
+}
+
+#sliderConsumidor .thumb{
+  -fx-cursor: hand; 
+  -fx-background-color: #fff6ae;
+}
+
+#botaoPausarProdutor{
+  -fx-cursor: hand; 
+}
+
+#botaoPausarConsumidor{
+  -fx-cursor: hand; 
+}
+
+#botaoReiniciar{
+  -fx-cursor: hand; 
+}

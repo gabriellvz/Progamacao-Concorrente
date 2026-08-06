@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControleTelaPrincipal">
+   <children>
+      <ImageView fx:id="botaoPauseProd" fitHeight="407.0" fitWidth="607.0" layoutX="-6.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/background-tela-principal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botao4" layoutX="478.0" layoutY="23.0" mnemonicParsing="false" onAction="#fecharTela2" text="FECHAR" />
+      <Button fx:id="botao3" layoutX="37.0" layoutY="23.0" mnemonicParsing="false" onAction="#voltarParaTela1" text="VOLTAR" />
+      <ImageView fx:id="bancada" fitHeight="149.0" fitWidth="73.0" layoutX="271.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/bancada.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="85.0" layoutX="14.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/mesa-de-peixes.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPeixeiro" fitHeight="110.0" fitWidth="404.0" layoutX="74.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/spritesheet-andando1-peixeiro.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="imgCachorro" fitHeight="69.0" fitWidth="420.0" layoutX="524.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/spritesheet-andando1-cachorro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="peixe1" fitHeight="48.0" fitWidth="37.0" layoutX="289.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/peixe1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="peixe2" fitHeight="37.0" fitWidth="37.0" layoutX="289.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/peixe2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="peixe3" fitHeight="37.0" fitWidth="37.0" layoutX="289.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/peixe3.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderProdutor" layoutX="20.0" layoutY="362.0" prefHeight="14.0" prefWidth="73.0" />
+      <Slider fx:id="sliderConsumidor" layoutX="451.0" layoutY="363.0" prefHeight="14.0" prefWidth="73.0" />
+      <ImageView fx:id="botaoPausarProdutor" fitHeight="37.0" fitWidth="37.0" layoutX="99.0" layoutY="351.0" onMouseClicked="#pausarProdutor" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-pausar-produtor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoPausarConsumidor" fitHeight="37.0" fitWidth="37.0" layoutX="537.0" layoutY="351.0" onMouseClicked="#pausarConsumidor" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-pausar-consumidor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoReiniciar" fitHeight="37.0" fitWidth="37.0" layoutX="289.0" layoutY="351.0" onMouseClicked="#reiniciarAnimacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/imagem-botao-reiniciar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

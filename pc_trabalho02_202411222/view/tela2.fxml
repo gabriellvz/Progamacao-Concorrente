@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerTela2">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/background-tela2.png" />
+         </image></ImageView>
+      <ImageView fitHeight="185.0" fitWidth="150.0" layoutX="450.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icon-astronauta.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label1" layoutX="88.0" layoutY="69.0" prefHeight="25.0" prefWidth="84.0" styleClass="estiloLabel" text="Olá viajante." />
+      <Label fx:id="label2" layoutX="88.0" layoutY="115.0" prefHeight="17.0" prefWidth="221.0" styleClass="estiloLabel" text="Escolha a posição das naves e a solução." />
+      <Button fx:id="botaoVoltar" layoutX="546.0" layoutY="342.0" mnemonicParsing="false" onAction="#voltarParaTela1" text="Voltar" />
+      <Button fx:id="botaoAvancar" layoutX="273.0" layoutY="342.0" mnemonicParsing="false" onAction="#mudarParaTela3" text="Avançar" />
+      <ChoiceBox fx:id="choiceBox" layoutX="147.0" layoutY="214.0" prefHeight="25.0" prefWidth="347.0" styleClass="choiceBox" />
+      <ChoiceBox fx:id="choiceBoxSolucao" layoutX="228.0" layoutY="290.0" prefHeight="25.0" prefWidth="172.0" styleClass="choiceBox" />
+      <Label fx:id="label3" layoutX="288.0" layoutY="175.0" prefHeight="25.0" prefWidth="59.0" text="POSIÇÃO" />
+      <Label fx:id="label4" layoutX="288.0" layoutY="250.0" prefHeight="25.0" prefWidth="59.0" text="SOLUÇÃO" />
+   </children>
+</AnchorPane>
