@@ -6,16 +6,14 @@ Este repositório reúne os trabalhos desenvolvidos na disciplina de **Programa�
 
 ## 📑 Trabalhos
 
-* 🚂 Trabalho 01 – Problema dos Trens
-* 🚂 Trabalho 02 – Problema dos Trens com Threads
-* 📦 Trabalho 03 – Produtor-Consumidor
-* 🍽️ Trabalho 04 – Jantar dos Filósofos
+* Trabalho 01 – Problema dos Trens
+* Trabalho 02 – Problema dos Trens com Threads
+* Trabalho 03 – Produtor-Consumidor
+* Trabalho 04 – Jantar dos Filósofos
 
 ---
 
 # Trabalho 01 – Problema dos Trens
-
-## 📝 Descrição
 
 O primeiro problema, denominado Problema dos Trens, consiste na simulação do deslocamento de dois trens por uma ferrovia que possui trechos compartilhados. O objetivo desta etapa foi observar o comportamento da aplicação em diferentes cenários de execução, analisando como a movimentação simultânea dos trens pode ocasionar conflitos ao acessarem uma mesma região compartilhada. Nesse primeiro momento, não foi realizado o tratamento das condições de corrida, buscando apenas evidenciar os problemas decorrentes da ausência de mecanismos de sincronização e compreender a necessidade de técnicas que garantam o acesso correto às regiões críticas.
 
