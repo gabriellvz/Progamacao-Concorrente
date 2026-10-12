@@ -23,8 +23,6 @@ O primeiro problema, denominado Problema dos Trens, consiste na simulação do d
 
 # Trabalho 02 – Problema dos Trens com Threads
 
-## 📝 Descrição
-
 Este problema consiste na simulação do deslocamento simultâneo de dois trens por trechos compartilhados de uma ferrovia. Nesta etapa, cada trem foi implementado como uma **thread** independente, permitindo a execução concorrente da aplicação e a movimentação simultânea dos trens durante a simulação. Diferentemente do problema anterior, o objetivo passou a ser **tratar as condições de corrida**, garantindo que apenas um trem acesse a região crítica por vez e evitando conflitos decorrentes do acesso simultâneo. Além disso, buscou-se analisar o comportamento de cada thread durante a execução, observando como diferentes mecanismos de sincronização influenciam o acesso às regiões compartilhadas. Para isso, foram implementadas e comparadas três soluções clássicas descritas por Tanenbaum em *Sistemas Operacionais*: **Variável de Travamento**, **Estrita Alternância** e **Solução de Peterson**, possibilitando a avaliação das características, limitações e do funcionamento de cada abordagem em diferentes cenários de execução.
 
 ### 📷 Demonstração
@@ -35,8 +33,6 @@ Este problema consiste na simulação do deslocamento simultâneo de dois trens 
 
 # Trabalho 03 – Produtor-Consumidor
 
-## 📝 Descrição
-
 O Problema do Produtor-Consumidor consiste na simulação da interação entre uma thread produtora, responsável por inserir itens em um buffer compartilhado, e uma thread consumidora, encarregada de remover esses itens. Para representar a execução concorrente, o produtor e o consumidor foram implementados como threads independentes, permitindo que ambas executassem simultaneamente durante a simulação. O principal objetivo desta etapa foi tratar os problemas de sincronização decorrentes do acesso concorrente ao buffer compartilhado, evitando condições de corrida e garantindo a correta coordenação entre as threads. Para isso, foram utilizados semáforos, responsáveis por controlar o acesso à região crítica e sincronizar as operações de produção e consumo, possibilitando a análise do comportamento das threads em diferentes cenários de execução.
 
 ### 📷 Demonstração
@@ -46,8 +42,6 @@ O Problema do Produtor-Consumidor consiste na simulação da interação entre u
 ---
 
 # Trabalho 04 – Jantar dos Filósofos
-
-## 📝 Descrição
 
 O **Problema do Jantar dos Filósofos** consiste na simulação de cinco filósofos que alternam entre os estados de pensar e comer, compartilhando os garfos disponíveis entre eles. Nesta etapa, cada filósofo foi implementado como uma **thread** independente, permitindo que todos executassem suas ações de forma concorrente. O objetivo foi compreender os desafios da sincronização no compartilhamento de recursos, garantindo que dois filósofos vizinhos não utilizassem o mesmo garfo simultaneamente e evitando problemas como condições de corrida e *deadlocks*. Para isso, foram utilizados **semáforos** para controlar o acesso aos garfos, possibilitando observar como as threads se comportam durante a execução e como a sincronização influencia o funcionamento correto da aplicação.
 
