@@ -13,7 +13,7 @@ Este repositório reúne os trabalhos desenvolvidos na disciplina de **Programa�
 
 ---
 
-# 🚂 Trabalho 01 – Problema dos Trens
+# Trabalho 01 – Problema dos Trens
 
 ## 📝 Descrição
 
@@ -21,7 +21,7 @@ O primeiro problema, denominado Problema dos Trens, consiste na simulação do d
 
 ---
 
-# 🚂 Trabalho 02 – Problema dos Trens com Threads
+# Trabalho 02 – Problema dos Trens com Threads
 
 ## 📝 Descrição
 
@@ -33,7 +33,7 @@ Este problema consiste na simulação do deslocamento simultâneo de dois trens 
 
 ---
 
-# 📦 Trabalho 03 – Produtor-Consumidor
+# Trabalho 03 – Produtor-Consumidor
 
 ## 📝 Descrição
 
@@ -45,7 +45,7 @@ O Problema do Produtor-Consumidor consiste na simulação da interação entre u
 
 ---
 
-# 🍽️ Trabalho 04 – Jantar dos Filósofos
+# Trabalho 04 – Jantar dos Filósofos
 
 ## 📝 Descrição
 
